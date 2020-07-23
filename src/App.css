@@ -8,6 +8,14 @@ h1 {
   color: #f2a104;
   padding-top: 15px;
   margin: 0px;
+  text-shadow: 1px 1px #72a2c0;
+}
+
+h3 {
+  font-family: "Lobster", cursive;
+  color: #e59400;
+  margin: 0px;
+  text-shadow: 1px 1px #72a2c0;
 }
 
 ul {
@@ -26,9 +34,7 @@ ul {
   top: 0px;
   width: 100%;
   background-color: #1d65a6;
-  height: 100px;
-  justify-content: center;
-  align-items: center;
+  height: 65px;
 }
 
 .search-input {
@@ -51,7 +57,7 @@ button {
 
 button:hover {
   background-color: #f2a104;
-  opacity: 0.8;
+  transition: background-color 0.2s;
 }
 
 button:focus {
@@ -73,6 +79,7 @@ i {
 
 i.toad:hover {
   color: #72a2c0;
+  transition: color 0.2s;
 }
 
 img {
@@ -81,6 +88,11 @@ img {
 .photo-results {
   padding: 15px;
   background-color: #72a2c0;
+}
+
+.alert {
+  background-color: #1d65a6;
+  padding-bottom: 15px;
 }
 
 @keyframes App-logo-spin {

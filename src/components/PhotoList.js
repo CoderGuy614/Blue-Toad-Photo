@@ -1,5 +1,6 @@
 import React from "react";
 import Photo from "./Photo";
+import Alert from "./Alert";
 
 const PhotoList = ({ photos }) => {
   const foundResults = () => {
@@ -18,12 +19,14 @@ const PhotoList = ({ photos }) => {
     );
   };
 
-  const noResults = () => <div> No Results were Found</div>;
-
   return (
-    <div className="photo-results">
-      {photos.length > 0 ? foundResults() : noResults()}
-    </div>
+    <>
+      {photos.length > 0 ? (
+        <div className="photo-results">{foundResults()}</div>
+      ) : (
+        <Alert message="No Results Found" />
+      )}
+    </>
   );
 };
 
