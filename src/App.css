@@ -83,9 +83,10 @@ i.fa-frog:hover {
 }
 
 img {
-  width: 100%;
   border-radius: 10px;
   padding: 5px;
+  height: 85vh;
+  max-width: 90vw;
 }
 .photo-results {
   padding: 15px;
@@ -95,6 +96,11 @@ img {
 .alert {
   background-color: #1d65a6;
   padding-bottom: 15px;
+}
+
+.spinner {
+  height: 250px;
+  width: 250px;
 }
 
 @keyframes App-logo-spin {
