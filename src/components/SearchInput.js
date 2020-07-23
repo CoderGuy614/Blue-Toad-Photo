@@ -13,15 +13,18 @@ const SearchInput = ({ getPhotos }) => {
   };
 
   return (
-    <div>
+    <div className="search-container">
+      <h1>Blue Toad Photo Search</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          className="search-input"
           value={text}
           onChange={handleChange}
+          className="search-input"
         />
-        <button type="submit">Search!</button>
+        <button type="submit">
+          <i class="fas  fa-search"></i>
+        </button>
       </form>
     </div>
   );
