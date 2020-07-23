@@ -14,7 +14,6 @@ const SearchInput = ({ getPhotos }) => {
 
   return (
     <div className="search-container">
-      <h1>Blue Toad Photo Search</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -23,7 +22,7 @@ const SearchInput = ({ getPhotos }) => {
           className="search-input"
         />
         <button type="submit">
-          <i class="fas  fa-search"></i>
+          <i className="fas  fa-search"></i>
         </button>
       </form>
     </div>

@@ -1,9 +1,9 @@
 import React from "react";
 
-const Photo = ({ key, title, url }) => {
+const Photo = ({ title, url }) => {
   return (
     <li>
-      <img src={url} alt="" />
+      <img src={url} alt={title} />
     </li>
   );
 };
