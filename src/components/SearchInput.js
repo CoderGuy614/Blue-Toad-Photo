@@ -20,6 +20,7 @@ const SearchInput = ({ getPhotos }) => {
           value={text}
           onChange={handleChange}
           className="search-input"
+          placeholder="Enter a Keyword..."
         />
         <button type="submit">
           <i className="fas  fa-search"></i>

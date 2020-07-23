@@ -28,8 +28,18 @@ const Main = () => {
     getPhotos("toad");
   }, []);
 
+  const header = () => (
+    <div className="header">
+      <h1>
+        {" "}
+        <i class="fas fa-2x fa-frog toad"></i> Photo Search
+      </h1>
+    </div>
+  );
+
   return (
     <>
+      {header()}
       <SearchInput getPhotos={getPhotos} />
       {loading ? <Spinner /> : <PhotoList photos={photos} />}
     </>
