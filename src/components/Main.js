@@ -36,18 +36,10 @@ const Main = () => {
     <div className="header">
       <h1>
         {" "}
-        <i className="fas fa-2x fa-frog toad"></i> Photo Search
+        <i className="fas fa-2x fa-frog"></i> Photo Search
       </h1>
     </div>
   );
-
-  //   const successMessage = () => (
-  //     <div className="success">
-  //       <h3>
-  //         Showing {photos.length} results for {success}
-  //       </h3>
-  //     </div>
-  //   );
 
   return (
     <>

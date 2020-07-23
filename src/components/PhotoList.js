@@ -5,7 +5,7 @@ import Alert from "./Alert";
 const PhotoList = ({ photos }) => {
   const foundResults = () => {
     return (
-      <div className="">
+      <div>
         <ul>
           {photos.map((photo) => (
             <Photo

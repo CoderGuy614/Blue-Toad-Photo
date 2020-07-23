@@ -77,13 +77,15 @@ i {
   color: whitesmoke;
 }
 
-i.toad:hover {
+i.fa-frog:hover {
   color: #72a2c0;
   transition: color 0.2s;
 }
 
 img {
   width: 100%;
+  border-radius: 10px;
+  padding: 5px;
 }
 .photo-results {
   padding: 15px;
